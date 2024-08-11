@@ -1,9 +1,10 @@
 import './App.css'
+import { clsx } from 'clsx';
 
 function App() {
   return (
     <>
-      <h1 className='bg-black text-white'>Template</h1>
+      <h1 className={clsx('bg-black text-white', "font-bold")}>Template</h1>
     </>
   )
 }
